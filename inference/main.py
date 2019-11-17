@@ -6,8 +6,8 @@ from interactive_conditional_samples import interact_model
 from textblob import TextBlob
 
 def pick_topic():
-	topic = random.choice(['evolution', 'abortion', 'gun control', 'gay marriage', 'existence of god', 'healthcare'
-						  , 'climate change', 'communism', '#christian'])
+	topic = random.choice(['evolution', 'gun control', 'existence of god', 'healthcare'
+						  , 'climate change', 'communism'])
 	return topic
 
 def search(topic, api):
